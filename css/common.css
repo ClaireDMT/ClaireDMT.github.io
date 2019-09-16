@@ -1,0 +1,38 @@
+h1 {
+  color: #e8a981;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: #bac8c8;
+}
+
+.profile-pic {
+  width: 400px;
+  margin: 0 500px;
+}
+
+.wrapper {
+  background-color: #023332;
+  height: 100vh;
+}
+
+a {
+  color: #cfd1d1 !important;
+}
+
+a:hover {
+  color: #e8a981 !important ;
+}
+
+.btn-orange-border {
+  border: 2px solid #e8a981 !important;
+  color: #f0c8ae !important;
+}
+
+.btn-orange-border:hover {
+  background-color: rgba(232, 169, 129, 0.1) !important;
+}

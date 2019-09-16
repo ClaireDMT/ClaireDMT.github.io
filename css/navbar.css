@@ -1,0 +1,30 @@
+.container-navbar {
+  width: 100%;
+  padding: 0 50px !important;
+}
+
+.navbar-clairedmt {
+  justify-content: space-between !important;
+  height: 100px !important;
+}
+
+.navbar-clairedmt .navbar-collapse {
+  flex-grow: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.navbar-icon {
+  height: 80%;
+}
+
+.navbar-icon img {
+  height: 100%;
+}
+
+.navbar .btn-orange-border {
+  margin-left: 10px;
+}
+
