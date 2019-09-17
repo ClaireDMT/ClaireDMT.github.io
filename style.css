@@ -1,2 +1,18 @@
 @import "./css/common.css";
 @import "./css/navbar.css";
+@import "./css/intro.css";
+@import "./css/button.css";
+@import "./css/about.css";
+
+/*
+
+green : #022f2e
+orange: #e8a981;
+light-green: #85a293;
+
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+
+
+*/

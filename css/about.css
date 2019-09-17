@@ -1,0 +1,39 @@
+.about-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-about {
+  max-width: 475px !important;
+  padding: 0 !important;
+}
+
+.skills-list {
+  columns: 2;
+  padding-left: 0px;
+  color: #85a293;
+  list-style: outside none none;
+  margin-top: 20px;
+}
+
+.skills-list li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.skills-list li::before {
+  padding-right: 20px;
+  content: "▵";
+  color: #e8a981;
+}
+
+.profile-pic-container {
+  margin-left: 60px;
+}
+
+.profile-pic {
+  min-width: 350px !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+
