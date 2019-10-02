@@ -1,0 +1,37 @@
+.email-container {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+}
+
+.email {
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.email a {
+  writing-mode: vertical-lr;
+  color: #85a293 !important;
+  margin: 0 auto;
+  padding: 0 10px;
+  letter-spacing: 0.5;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.email a:hover {
+  color: #e8a981 !important;
+  text-decoration: none;
+  transform: translateY(+3px);
+}
+
+.email > a::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  background-color: #85a293;
+  margin: 30px auto 0;
+}

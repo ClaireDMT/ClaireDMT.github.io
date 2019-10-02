@@ -37,6 +37,9 @@ a:hover {
 
 section {
   padding: 150px 0;
+  margin: 0px auto;
+  position: relative;
+  max-width: 800px;
 }
 
 .section-title {

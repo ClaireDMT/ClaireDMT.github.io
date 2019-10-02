@@ -1,0 +1,20 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #1C4948;
+  text-align: center;
+  height: auto;
+  min-height: 90px;
+}
+
+#footer p {
+  margin: 10px 0px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  background-color: transparent;
+  color: #85a293;
+}

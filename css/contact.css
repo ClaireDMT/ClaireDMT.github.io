@@ -1,0 +1,25 @@
+#contact h2 {
+  color: #e8a981;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.white {
+  color: white;
+}
+
+
+.contact-infos,
+.contact-infos p {
+  text-align: center !important;
+}
+
+
+.contact-infos p {
+  font-size: 18px;
+}
+
+
+.light-green {
+  color: #85a293;
+}
