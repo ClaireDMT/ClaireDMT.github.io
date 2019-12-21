@@ -11,11 +11,13 @@ const deactivate = (element) => {
 const openTab = (element) => {
   activate(element.parentNode);
   activate(element.nextElementSibling);
+  element.lastElementChild.classList.add('rotated');
 }
 
 const closeTab = (element) => {
   deactivate(element);
   deactivate(element.lastElementChild);
+  element.firstElementChild.lastElementChild.classList.remove('rotated');
 }
 
 const openOrCloseTab = (element) => {

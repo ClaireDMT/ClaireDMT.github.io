@@ -15,8 +15,9 @@
 }
 
 .experience-employer {
-  margin: 10px 5px;
+  margin: 15px 5px;
   height: 60px;
+  box-shadow: rgba(0, 33, 32, 0.7) 0px 0px 20px -10px;
 }
 
 .experience-employer.active {
@@ -76,7 +77,14 @@
   line-height: 23px;
 }
 
-
-.experience-title i.dropdown-triangle {
+.experience-title p.dropdown-triangle {
+  margin: 0 !important;
   color: #e8a981;
+  font-size: 24px;
+  transform: rotate(90deg);
+
+}
+
+.rotated {
+  transform: rotate(180deg) !important;
 }
