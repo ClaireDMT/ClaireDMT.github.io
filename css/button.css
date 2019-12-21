@@ -1,6 +1,7 @@
 .btn-orange-border {
   border: 2px solid #e8a981 !important;
   color: #f0c8ae !important;
+  letter-spacing: 2px;
 }
 
 .btn-orange-border:hover {

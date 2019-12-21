@@ -1,21 +1,42 @@
 .container-navbar {
   width: 100%;
   padding: 0 50px !important;
-  box-shadow: rgba(0, 33, 32, 0.7) 0px 10px 30px -10px
+  box-shadow: rgba(0, 33, 32, 0.7) 0px 10px 30px -10px;
+  position: fixed;
+  top: 0px;
+  background-color: #022f2e;
+  z-index: 10;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  height: 100px !important;
+  transform: translateY(0px);
+}
+
+.hidden {
+  transform: translateY(-100px);
+}
+
+.on-top {
+  box-shadow: none;
+}
+
+.below-on-top {
+  box-shadow: rgba(0, 33, 32, 0.7) 0px 10px 30px -10px;
+  transform: translateY(-20px);
 }
 
 .navbar-clairedmt {
   justify-content: space-between !important;
-  height: 100px !important;
+  height: 100%;
 }
 
 .navbar-clairedmt .navbar-collapse {
   flex-grow: 0;
 }
 
-.nav-item {
+.narbar .nav-item {
   margin: 0 10px;
   font-family: 'Maven Pro', sans-serif;
+  letter-spacing: 2px;
 }
 
 .navbar-icon {
