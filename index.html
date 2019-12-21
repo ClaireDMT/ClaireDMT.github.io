@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Nanum+Gothic|Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9688b3dc14.js"></script>
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   </head>
@@ -20,7 +22,7 @@
     <div class="wrapper">
 
       <!-- NAVBAR -->
-      <div class="container-navbar">
+      <div class="container-navbar on-top">
         <div class="navbar navbar-expand-sm navbar-light navbar-clairedmt">
             <a class="navbar-icon" href="index.html">
               <img src="assets/logo_dark_cropped.png" />
@@ -34,16 +36,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about">About<span class="orange-text">.</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#experience">Experience<span class="orange-text">.</span></a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio<span class="orange-text">.</span></a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#contact">Contact<span class="orange-text">.</span></a>
               </li>
             </ul>
             <div>
@@ -113,11 +115,14 @@
           <div class="experience-content">
             <ul class="experience-list nav flex-column">
               <li id=1 class="experience-employer nav-item">
-                <h4>
-                  <span><strong>Teacher & Teacher Assistant</strong></span>
-                  <span a class="employer-name">&nbsp;@&nbsp;</span>
-                  <span><a class="employer-name" href=""><strong>Le Wagon Paris & Berlin</strong></a></span>
-                </h4>
+                <div class="experience-title flex">
+                  <h4>
+                    <span><strong>Teacher & Teacher Assistant</strong></span>
+                    <span a class="employer-name">&nbsp;@</span>
+                    <span><a class="employer-name" href=""><strong>Le Wagon Paris & Le Wagon Berlin</strong></a></span>
+                  </h4>
+                  <i class="fas fa-caret-right dropdown-triangle"></i>
+                </div>
                 <div class="experience-details">
                   <p class="experience-date">April 2019 - Present</p>
                   <p>9-week full-time Ruby On Rails bootcamp to build several web applications and a personal project.</p>
@@ -130,11 +135,14 @@
                 </div>
               </li>
               <li id=2 class="experience-employer nav-item">
-                <h4>
-                  <span><strong>Key Account Project Manager & Team Leader</strong></span>
-                  <span a class="employer-name">&nbsp;@&nbsp;</span>
-                  <span><a class="employer-name" href=""><strong>Doctolib</strong></a></span>
-                </h4>
+                <div class="experience-title flex">
+                  <h4>
+                    <span><strong>Key Account Project Manager & Team Leader</strong></span>
+                    <span a class="employer-name">&nbsp;@</span>
+                    <span><a class="employer-name" href=""><strong>Doctolib</strong></a></span>
+                  </h4>
+                  <i class="fas fa-caret-right dropdown-triangle"></i>
+                </div>
                 <div class="experience-details">
                   <p class="experience-date">Sept. 2018 - Dec. 2018</p>
                   <p>Deploying Doctolib in SaaS  in hospitals and health centers:</p>
@@ -147,11 +155,14 @@
                 </div>
               </li>
               <li id=3 class="experience-employer nav-item">
-                <h4>
-                  <span><strong>Senior Account Manager & Team Leader</strong></span>
-                  <span a class="employer-name">&nbsp;@&nbsp;</span>
-                  <span><a class="employer-name" href=""><strong>Mondocteur.fr</strong></a></span>
-                </h4>
+                <div class="experience-title flex">
+                  <h4>
+                    <span><strong>Senior Account Manager & Team Leader</strong></span>
+                    <span a class="employer-name">&nbsp;@</span>
+                    <span><a class="employer-name" href=""><strong>Mondocteur.fr</strong></a></span>
+                  </h4>
+                  <i class="fas fa-caret-right dropdown-triangle"></i>
+                </div>
                 <div class="experience-details">
                   <p class="experience-date">Jan. 2017 - Aug. 2018</p>
                   <p>Senior Onboarding Manager in charge of deploying MonDocteur SAAS solution at Strategic Doctor's offices and Clinics:</p>
@@ -169,13 +180,17 @@
                     <li>PoC for the team (training, FAQs, testing and bug fixing)</li>
                   </ul>
                 </div>
+
               </li>
               <li id=4 class="experience-employer nav-item">
-                <h4>
-                  <span><strong>Consultant in Strategic Services</strong></span>
-                  <span a class="employer-name">&nbsp;@&nbsp;</span>
-                  <span><a class="employer-name" href=""><strong>Cognizant Technology Solutions</strong></a></span>
-                </h4>
+                <div class="experience-title flex">
+                  <h4>
+                    <span><strong>Consultant in Strategic Services</strong></span>
+                    <span a class="employer-name">&nbsp;@</span>
+                    <span><a class="employer-name" href=""><strong>Cognizant Technology Solutions</strong></a></span>
+                  </h4>
+                  <i class="fas fa-caret-right dropdown-triangle"></i>
+                </div>
                 <div class="experience-details">
                   <p class="experience-date">April 2015 - December 2016</p>
                   <p>Organizational Change Management Project for a global CRM deployment (Salesforce.com)</p>
@@ -189,7 +204,6 @@
                 </div>
               </li>
             </ul>
-
             </div>
 
           </div>
@@ -206,10 +220,10 @@
         <section id="contact">
           <h3 class="section-title">What we can do together</h3>
           <div class="contact-infos">
-            <h2>Please reach me</h2>
-            <p>If you are <span class="white">a recruiter</span>, for a full-time job as a Ruby On Rails and React on Rails Fullstack Junior Developper. <span class="light-green">I am eager to learn and grow in a wonderful team with an amazing product!</span></p>
+            <h2>Please reach me...</h2>
+            <p>if you are <span class="white">a recruiter</span>, for a full-time job as a Ruby On Rails and React on Rails Fullstack Junior Developper.<br><span class="light-green">I am eager to learn and grow in a wonderful team with an amazing product!</span></p>
             <br>
-            <p>If you are <span class="white">a business owner</span>, for freelance missions on CMS or Ruby On Rails, consulting on SaaS integration, user training and Change Management. <span class="light-green">I am a very curious and versatile person!</span></p>
+            <p>if you are <span class="white">a business owner</span>, for freelance missions on CMS or Ruby On Rails, consulting on SaaS integration, user training and Change Management.<br><span class="light-green">I am a very curious and versatile person!</span></p>
             <div>
               <a class="btn btn-gradient btn-orange-border get-in-touch" href="mailto:claire.edith.demont@gmail.com?subject=Hello Claire">Get in touch</a>
             </div>
@@ -232,7 +246,6 @@
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/9688b3dc14.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
   </body>
