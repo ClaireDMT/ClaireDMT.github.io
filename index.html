@@ -4,22 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Claire Demont | Fullstack Web Developper" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Claire Demont | Fullstack Web Developper" />
     <meta property="og:description" content="Passionate, curious and inventive Fullstack Web Developer Ruby On Rails with experience with SaaS integration, user training and Change Management. Let's talk!" />
-    <meta property="og:url" content="https://clairedemont.fr/" />
+    <meta property="og:url" content="https://clairedemont.com/" />
     <meta property="og:site_name" content="Claire Demont | Fullstack Web Developper" />
-    <meta property="og:image" content="assets/logo_cd_transparent.png" />
+    <meta property="og:image" content="/assets/logo_cd_transparent.png" />
+    <meta property="og:image:type" content="image/x-icon">
     <meta property="og:image:width" content="680" />
     <meta property="og:image:height" content="463" />
+    <title>Claire Demont | Fullstack Web Developper</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
 
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Nanum+Gothic|Lato&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/9688b3dc14.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,7 +37,7 @@
       <div class="container-navbar on-top">
         <div class="navbar navbar-expand-sm navbar-light navbar-clairedmt">
             <a class="navbar-icon" href="/">
-              <img src="assets/logo_dark_cropped.png" />
+              <img src="assets/logo_cd.png" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -44,20 +48,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" id="about-link">About<span class="orange-text">.</span></a>
+                <a class="nav-link" id="about-link" data-aos="fade-down" data-aos-delay="200">About<span class="orange-text">.</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="experience-link">Experience<span class="orange-text">.</span></a>
+                <a class="nav-link" id="experience-link" data-aos="fade-down" data-aos-delay="400">Experience<span class="orange-text">.</span></a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" id="portfolio-link">Portfolio<span class="orange-text">.</span></a>
+                <a class="nav-link" id="portfolio-link" data-aos="fade-down" data-aos-delay="600">Portfolio<span class="orange-text">.</span></a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" id="contact-link">Contact<span class="orange-text">.</span></a>
+                <a class="nav-link" id="contact-link" data-aos="fade-down" data-aos-delay="800">Contact<span class="orange-text">.</span></a>
               </li>
             </ul>
             <div>
-                <a class="btn btn-gradient btn-orange-border" href="https://drive.google.com/file/d/1pBYKSOOcyLHsS6CSvl5LX61cric-7epU/view?usp=sharing">Resume</a>
+                <a class="btn btn-gradient btn-orange-border" href="https://drive.google.com/file/d/1pBYKSOOcyLHsS6CSvl5LX61cric-7epU/view?usp=sharing" data-aos="fade-down" data-aos-delay="1000">Resume</a>
             </div>
           </div>
         </div>
@@ -65,33 +69,59 @@
       <!-- NAVBAR -->
 
       <!-- EMAIL -->
-      <div class="email-container">
+      <div class="email-container" data-aos="fade" data-aos-delay="2900" data-aos-duration="3000">
         <div class="email flex">
           <a class="flex" href="mailto:claire.edith.demont@gmail.com?subject=Hello Claire">claire.edith.demont@gmail.com</a>
         </div>
       </div>
       <!-- EMAIL -->
 
+      <!-- SOCIAL -->
+      <div class="social-container" data-aos="fade" data-aos-delay="2900" data-aos-duration="3000">
+        <ul class="social flex">
+          <li>
+            <a class="flex" href="https://www.linkedin.com/in/clairedemont/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a class="flex" href="https://github.com/ClaireDMT">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a class="flex" href="https://www.malt.fr/profile/clairedemont">
+              <img src="assets/malt_picto_color.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="flex" href="https://join.skype.com/invite/dWRlPvE8NckR">
+              <i class="fab fa-skype"></i>
+            </a>
+          </li>
+        </div>
+      </ul>
+      <!-- SOCIAL -->
 
       <!-- MAIN -->
       <div class="container main">
 
         <!-- INTRO -->
         <section id="intro">
-          <h3>Hello, I am</h3>
-          <h1>Claire Demont,</h1>
-          <h2>Junior Fullstack Web Developper.</h2>
-          <p>Former SaaS integrator from project management to end-user training and Change Management, I know what makes great products, valuable to both users and businesses.</p>
+          <h3 data-aos="fade" data-aos-delay="1500">Hello, I am</h3>
+          <h1 data-aos="fade" data-aos-delay="1800">Claire Demont,</h1>
+          <h2 data-aos="fade" data-aos-delay="2100">Junior Fullstack Web Developper.</h2>
+          <p data-aos="fade" data-aos-delay="2400">Former SaaS integrator from project management to end-user training and Change Management, I know what makes great products, valuable to both users and businesses.</p>
           <div>
-            <a class="btn btn-gradient btn-orange-border get-in-touch" href="mailto:claire.edith.demont@gmail.com?subject=Hello Claire">Get in touch</a>
+            <a class="btn btn-gradient btn-orange-border get-in-touch" href="mailto:claire.edith.demont@gmail.com?subject=Hello Claire" data-aos="fade" data-aos-delay="2700">Get in touch</a>
           </div>
         </section>
         <!-- INTRO -->
 
         <!-- ABOUT -->
         <section id="about">
-          <h3 class="section-title">About me</h3>
-          <div class="about-content">
+          <h3 class="section-title" data-aos="fade"  data-aos-duration="600">About me</h3>
+          <div class="about-content" data-aos="fade" data-aos-delay="300">
             <div class="text-about col-sm-12 col-lg-6">
               <p>After a Master in Management from Neoma Business School, knowing so little about anything, I got foot in the door of IT as a Consultant because it was so unknown that it felt enthralling.</p>
               <p>I became passionate about SaaS products after a global CRM (Salesforce) deployment program in Health Industry.</p>
@@ -109,7 +139,7 @@
                 <li>Wordpress</li>
               </ul>
             </div>
-            <div class="col-sm-12 col-lg-6 profile-pic-container">
+            <div class="col-sm-12 col-lg-6 profile-pic-container" data-aos="fade" data-aos-delay="600">
               <img class="profile-pic" src="assets/profile_pic_900.png" />
             </div>
           </div>
@@ -119,10 +149,10 @@
 
         <!-- EXPERIENCE -->
         <section id="experience">
-          <h3 class="section-title">Where I've worked</h3>
+          <h3 class="section-title" data-aos="fade" data-aos-duration="600">Where I've worked</h3>
           <div class="experience-content">
             <ul class="experience-list nav flex-column">
-              <li id=1 class="experience-employer nav-item">
+              <li id=1 class="experience-employer nav-item" data-aos="fade" data-aos-delay="300">
                 <div class="experience-title flex">
                   <h4>
                     <span><strong>Teacher & Teacher Assistant</strong></span>
@@ -142,7 +172,7 @@
                   </ul>
                 </div>
               </li>
-              <li id=2 class="experience-employer nav-item">
+              <li id=2 class="experience-employer nav-item" data-aos="fade" data-aos-delay="500">
                 <div class="experience-title flex">
                   <h4>
                     <span><strong>Key Account Project Manager & Team Leader</strong></span>
@@ -162,7 +192,7 @@
                   </ul>
                 </div>
               </li>
-              <li id=3 class="experience-employer nav-item">
+              <li id=3 class="experience-employer nav-item" data-aos="fade" data-aos-delay="700">
                 <div class="experience-title flex">
                   <h4>
                     <span><strong>Senior Account Manager & Team Leader</strong></span>
@@ -190,7 +220,7 @@
                 </div>
 
               </li>
-              <li id=4 class="experience-employer nav-item">
+              <li id=4 class="experience-employer nav-item" data-aos="fade" data-aos-delay="900">
                 <div class="experience-title flex">
                   <h4>
                     <span><strong>Consultant in Strategic Services</strong></span>
@@ -220,7 +250,7 @@
 
         <!-- PORTFOLIO -->
         <section id="portfolio">
-          <h3 class="section-title">What I've done</h3>
+          <h3 class="section-title" data-aos="fade" data-aos-duration="600">What I've done</h3>
           <div>
             <div id="luma">
               <img src="" alt="">
@@ -231,14 +261,14 @@
 
         <!-- CONTACT -->
         <section id="contact">
-          <h3 class="section-title">What we can do together</h3>
+          <h3 class="section-title" data-aos="fade" data-aos-duration="600">What we can do together</h3>
           <div class="contact-infos">
-            <h2>Please reach me...</h2>
-            <p>if you are <span class="white">a recruiter</span>, for a full-time job as a Ruby On Rails and React on Rails Fullstack Junior Developper.<br><span class="light-green">I am eager to learn and grow in a wonderful team with an amazing product!</span></p>
+            <h2 data-aos="fade" data-aos-delay="300">Please reach me...</h2>
+            <p data-aos="fade" data-aos-delay="500">if you are <span class="white">a recruiter</span>, for a full-time job as a Ruby On Rails and React on Rails Fullstack Junior Developper.<br><span class="light-green">I am eager to learn and grow in a wonderful team with an amazing product!</span></p>
             <br>
-            <p>if you are <span class="white">a business owner</span>, for freelance missions on CMS or Ruby On Rails, consulting on SaaS integration, user training and Change Management.<br><span class="light-green">I am a very curious and versatile person!</span></p>
+            <p data-aos="fade" data-aos-delay="700">if you are <span class="white">a business owner</span>, for freelance missions on CMS or Ruby On Rails, consulting on SaaS integration, user training and Change Management.<br><span class="light-green">I am a very curious and versatile person!</span></p>
             <div>
-              <a class="btn btn-gradient btn-orange-border get-in-touch" href="mailto:claire.edith.demont@gmail.com?subject=Hello Claire">Get in touch</a>
+              <a class="btn btn-gradient btn-orange-border get-in-touch" href="mailto:claire.edith.demont@gmail.com?subject=Hello Claire" data-aos="fade" data-aos-delay="900">Get in touch</a>
             </div>
           </div>
         </section>
@@ -258,8 +288,17 @@
   </div>
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://kit.fontawesome.com/9688b3dc14.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script type="module" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1000,
+        easing: 'ease-out'
+      });
+    </script>
   </body>
 </html>
