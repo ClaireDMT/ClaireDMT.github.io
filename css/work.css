@@ -1,0 +1,38 @@
+#portfolio {
+  justify-content: center;
+  -moz-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.project {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  -moz-box-align: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+.project-infos {
+  position: relative;
+  grid-area: 1 / 1 / -1 / 7;
+}
+
+.project-infos ul {
+  list-style: none;
+}
+
+.techno {
+  color: white;
+}
+
+.project-screenshot {
+  grid-area: 1 / 3 / -1 / -1;
+}
+
+.project-screenshot a, .project-screenshot a img {
+  width: 100%;
+}
