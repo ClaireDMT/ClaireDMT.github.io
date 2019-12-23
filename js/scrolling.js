@@ -8,7 +8,6 @@ const scrollOnNavLinks = () => {
 
 const scroll = (element) => {
   const section = element.id.slice(0, -5);
-  console.log(section);
   document.getElementById(section).scrollIntoView({
     block: 'start',
     behavior: 'smooth',
@@ -16,4 +15,17 @@ const scroll = (element) => {
   });
 }
 
+const scrollProjects = () => {
+  const projectsLink = document.querySelector('#projects-link');
+  projectsLink.addEventListener("click", (e) => {
+    document.getElementById("portfolio").scrollIntoView({
+    block: 'start',
+    behavior: 'smooth',
+    inline: 'nearest'
+    })
+  });
+}
+
+
+export { scrollProjects };
 export { scrollOnNavLinks };

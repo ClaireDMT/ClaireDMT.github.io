@@ -40,12 +40,14 @@ p {
   height: 100%;
 }
 
-a {
+a, a span {
   color: white !important;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #e8a981   !important ;
+  color: #e8a981 !important ;
+  text-decoration: none !important;
 }
 
 .main {

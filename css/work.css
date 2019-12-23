@@ -8,7 +8,7 @@
 
 .project {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 0px;
   grid-template-columns: repeat(12, 1fr);
   -moz-box-align: center;
   align-items: center;
@@ -18,11 +18,20 @@
 
 .project-infos {
   position: relative;
-  grid-area: 1 / 1 / -1 / 7;
+  grid-area: 1 / 1 / -1 / 1;
+  background-color: rgba(3, 64, 63, 0.6);
+  height: 80%;
 }
 
 .project-infos ul {
-  list-style: none;
+  list-style: outside none none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .techno {
