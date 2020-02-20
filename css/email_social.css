@@ -48,6 +48,18 @@
   transform: translateY(+3px);
 }
 
+.social-container a img.orange-malt {
+  display: none;
+}
+
+.social-container a:hover img.green-malt {
+  display: none;
+}
+
+.social-container a:hover img.orange-malt {
+  display: block;
+}
+
 .email > a::after, .social-container ul::after {
   content: "";
   display: block;
