@@ -68,3 +68,7 @@
   background-color: #85a293;
   margin: 30px auto 0;
 }
+
+.email > a.mentions-activated::after {
+  height: 15px;
+}

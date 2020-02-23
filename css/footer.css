@@ -10,11 +10,30 @@
   min-height: 90px;
 }
 
-#footer p {
+#footer a {
   margin: 10px 0px;
   font-family: 'Maven Pro', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1;
   background-color: transparent;
   color: #85a293;
+  cursor: pointer;
+}
+
+.mentions-legales {
+  display: none;
+  height: 0;
+}
+
+.mentions-legales.clicked {
+  display: block;
+  height: 100%;
+}
+
+.mentions-legales.clicked p {
+  margin-top: 20px;
+  color: white !important;
+  font-size: 12px;
+  text-align: center;
+
 }

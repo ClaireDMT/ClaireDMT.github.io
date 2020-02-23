@@ -15,6 +15,10 @@
   margin-bottom: 100px;
 }
 
+.project:last-child {
+  margin-bottom: 0;
+}
+
 
 .techno-infos {
   position: relative;
