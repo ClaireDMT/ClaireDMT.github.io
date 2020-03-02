@@ -1,6 +1,6 @@
 .container-navbar {
+  padding: 0 10px !important;
   width: 100%;
-  padding: 0 50px !important;
   box-shadow: rgba(0, 33, 32, 0.7) 0px 10px 30px -10px;
   position: fixed;
   top: 0px;
@@ -10,6 +10,18 @@
   height: 100px !important;
   transform: translateY(0px);
 }
+
+@media (min-width: 992px) {
+  .container-navbar {
+    padding: 0 50px !important;
+  }
+}
+
+#navbarSupportedContent {
+  background-color: #022f2e;
+  padding: 10px;
+}
+
 
 .hidden {
   transform: translateY(-100px);
