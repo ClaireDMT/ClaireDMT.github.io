@@ -79,6 +79,17 @@ section {
   section {
     padding: 130px 0;
   }
+
+  .section-title::after {
+    content: "";
+    height: 1px;
+    width: 300px;
+    display: block;
+    position: relative;
+    top: 5px;
+    background-color: #ecc1a5;
+    margin-left: 20px
+  }
 }
 
 .section-title {
@@ -95,7 +106,6 @@ section {
   height: 1px;
   width: 300px;
   display: block;
-  position: relative;
   top: 5px;
   background-color: #ecc1a5;
   margin-left: 20px
