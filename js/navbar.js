@@ -29,8 +29,8 @@ const navbarTransitions = () => {
 const navbarUnshow = () => {
   navItemNavbarMobile.forEach(navItem => {
     navItem.addEventListener('click', e => {
-      console.log(e);
       navbarMobile.classList.remove('show');
+      navbarContainer.classList.add('hidden');
     })
   })
 
