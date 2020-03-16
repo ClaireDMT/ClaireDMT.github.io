@@ -4,6 +4,8 @@ import { navbarTransitions } from "./js/navbar.js";
 import { scrollOnNavLinks } from "./js/scrolling.js";
 import { scrollProjects } from "./js/scrolling.js";
 import { displayMentions } from  "./js/mentions.js";
+import { navbarUnshow } from "./js/navbar.js";
+
 
 
 switchTabs();
@@ -12,3 +14,4 @@ navbarTransitions();
 scrollOnNavLinks();
 scrollProjects();
 displayMentions();
+navbarUnshow();

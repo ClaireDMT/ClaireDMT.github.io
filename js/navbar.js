@@ -1,4 +1,7 @@
-const navbarContainer = document.querySelector('.container-navbar')
+const navbarContainer = document.querySelector('.container-navbar');
+const navbarMobile = document.getElementById('navbarSupportedContent');
+const navItemNavbarMobile = document.querySelectorAll('#navbarSupportedContent li.nav-item')
+
 let position = window.scrollY;
 
 const navbarTransitions = () => {
@@ -23,4 +26,15 @@ const navbarTransitions = () => {
   });
 }
 
+const navbarUnshow = () => {
+  navItemNavbarMobile.forEach(navItem => {
+    navItem.addEventListener('click', e => {
+      console.log(e);
+      navbarMobile.classList.remove('show');
+    })
+  })
+
+}
+
 export { navbarTransitions };
+export { navbarUnshow };

@@ -20,6 +20,7 @@
 #navbarSupportedContent {
   background-color: #022f2e;
   padding: 10px;
+  padding-bottom: 20px;
 }
 
 
@@ -61,6 +62,6 @@
 }
 
 .navbar .btn-orange-border {
-  margin-left: 10px;
+  margin-top: 8px;
 }
 
