@@ -80,15 +80,17 @@ section {
     padding: 130px 0;
   }
 
+  .section-title {
+  font-size: 31px;
+  align-items: center;
+  display: flex;
+  }
+
   .section-title::after {
-    content: "";
-    height: 1px;
-    width: 300px;
-    display: block;
+    width: 300px !important;
     position: relative;
     top: 5px;
-    background-color: #ecc1a5;
-    margin-left: 20px
+    margin-left: 20px;
   }
 }
 
@@ -97,18 +99,16 @@ section {
   color: white;
   margin: 10px 0 40px;
   font-size: 31px;
-  display: flex;
   align-items: center;
 }
 
 .section-title::after {
   content: "";
   height: 1px;
-  width: 300px;
+  width: 100%;
   display: block;
-  top: 5px;
   background-color: #ecc1a5;
-  margin-left: 20px
+  margin-top: 20px;
 }
 
 .flex {

@@ -1,6 +1,6 @@
 #intro {
-  padding: 110px 0 10px 0;
-  min-height: calc(100vh - 100px);
+  padding: 110px 0 0 0;
+  min-height: calc(100vh - 130px);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -11,12 +11,15 @@
  #intro {
     padding: 150px 0;
  }
+ #intro h1 {
+    line-height: 1.2 !important;
+ }
 }
 
-h1 {
+#intro h1 {
   font-size: 50px !important;
   color: white;
-  line-height: 1.1;
+  line-height: 1 ;
   letter-spacing: 2px;
 }
 

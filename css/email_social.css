@@ -1,9 +1,15 @@
+@media (min-width: 992px) {
+  .social-container ul {
+    margin: 20px auto;
+  }
+}
+
 .social-container ul {
     align-items: center;
     display: flex;
     justify-content: space-around;
     padding: 0;
-    margin: 20px auto;
+    margin: 10px auto;
   }
 
   .social-container a {

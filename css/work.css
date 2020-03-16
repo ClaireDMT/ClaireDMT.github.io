@@ -5,6 +5,10 @@
   align-items: flex-start;
 }
 
+#portfolio .row {
+  margin: 0;
+}
+
 
 .project {
   display: grid;
