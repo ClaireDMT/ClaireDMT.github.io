@@ -82,10 +82,12 @@
 
   .social-container a img.orange-malt {
     display: none;
+    width: -webkit-fill-available;
   }
 
   .social-container a:hover img.green-malt {
     display: none;
+    width: -webkit-fill-available;
   }
 
   .social-container a:hover img.orange-malt {
