@@ -85,6 +85,10 @@
     width: -webkit-fill-available;
   }
 
+  .social-container a img.green-malt {
+      width: -webkit-fill-available;
+  }
+
   .social-container a:hover img.green-malt {
     display: none;
     width: -webkit-fill-available;
