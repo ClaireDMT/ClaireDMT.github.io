@@ -82,11 +82,11 @@
 
   .social-container a img.orange-malt {
     display: none;
-    width: -webkit-fill-available;
   }
 
   .social-container a img {
-      width: -webkit-fill-available;
+    max-width: 40px;
+    margin-left: -10px;
   }
 
   .social-container a:hover img.green-malt {
