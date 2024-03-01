@@ -4,7 +4,6 @@
   box-shadow: rgba(0, 33, 32, 0.7) 0px 10px 30px -10px;
   position: fixed;
   top: 0px;
-  background-color: #022f2e;
   z-index: 10;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   height: 100px !important;
@@ -18,7 +17,6 @@
 }
 
 #navbarSupportedContent {
-  background-color: #022f2e;
   padding: 10px;
   padding-bottom: 20px;
 }
@@ -37,12 +35,12 @@
   transform: translateY(-20px);
 }
 
-.navbar-clairedmt {
-  justify-content: space-between !important;
+.navbar {
+  justify-content: flex-end !important;
   height: 100%;
 }
 
-.navbar-clairedmt .navbar-collapse {
+.navbar .navbar-collapse {
   flex-grow: 0;
 }
 
@@ -70,4 +68,3 @@
 .navbar .btn-orange-border {
   margin-top: 8px;
 }
-
