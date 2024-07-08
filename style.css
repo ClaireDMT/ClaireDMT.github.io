@@ -12,13 +12,17 @@
 
 /*
 
-green : #022f2e
-orange: #e8a981;
-light-green: #85a293;
-
 font-family: 'Maven Pro', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Nanum Gothic', sans-serif;
 
 
 */
+
+:root {
+  --bg: #032724;
+  --lighter-bg: #053e3e;
+  --text-color: #a7c0b3;
+  --accent-color: #e8a981;
+  --white: #fdf8f5;
+}

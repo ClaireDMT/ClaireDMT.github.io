@@ -16,7 +16,7 @@
 
 .experience-employer {
   margin: 15px 0px;
-  box-shadow: rgba(0, 33, 32, 0.7) 0px 0px 20px -10px;
+  box-shadow: var(--lighter-bg) 0px 0px 20px -10px;
 }
 
 .experience-employer.active {
@@ -65,11 +65,11 @@
 }
 
 .employer-name {
-  color: #e8a981 !important;
+  color: var(--accent-color) !important;
 }
 
 #experience a.employer-name:hover {
-  color: #85a293 !important;
+  color: var(--text-color) !important;
 }
 
 .experience-details {
@@ -103,7 +103,7 @@
 
 .experience-title p.dropdown-triangle {
   margin: 0 !important;
-  color: #e8a981;
+  color: var(--accent-color);
   font-size: 24px;
   transform: rotate(90deg);
 

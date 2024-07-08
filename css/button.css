@@ -1,6 +1,6 @@
 .btn-orange-border {
-  border: 2px solid #e8a981 !important;
-  color: #f0c8ae !important;
+  border: 2px solid var(--accent-color) !important;
+  color: var(--accent-color) !important;
   letter-spacing: 2px;
 }
 

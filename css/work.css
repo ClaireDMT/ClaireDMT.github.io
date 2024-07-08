@@ -51,12 +51,12 @@
 }
 
 .techno-infos li {
-  color: #e8a780;
+  color: var(--accent-color);
   appearance: button;
-  background-color: #032424;
-  border: 1px solid #032424;
+  background-color: var(--bg);
+  border: 1px solid var(--bg);
   border-radius: 4px;
-  box-shadow: #fff 3px 3px 0 0,#032424 3px 3px 0 1px;
+  box-shadow: #fff 3px 3px 0 0,var(--bg) 3px 3px 0 1px;
   box-sizing: border-box;
   display: inline-block;
   font-size: 1rem;
@@ -84,7 +84,7 @@
 }
 
 .infos-project {
-  background: #053e3e none repeat scroll 0% 0%;
+  background: var(--lighter-bg) none repeat scroll 0% 0%;
   overflow: hidden;
   position: absolute;
   top: 0;
@@ -128,7 +128,7 @@
     margin-top: 30px !important;
     margin-bottom: 30px !important;
     line-height: 1.5 !important;
-    text-align: ;
+    text-align: center;
   }
 
   .project-context {
@@ -171,7 +171,7 @@ h3.visible-mobile {
 .project-job {
   margin-top: 3rem;
   font-size: 1.25rem;
-  color: #e8a780;
+  color: var(--accent-color);
 }
 
 .project-links {
@@ -188,6 +188,6 @@ h3.visible-mobile {
 
 
 .project-links a:hover i {
-  color: #e8a780;
+  color: var(--accent-color);
   transition: all 0.3s;
 }

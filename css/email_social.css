@@ -18,7 +18,7 @@
 }
 
 .social-container a {
-  color: #85a293 !important;
+  color: (--text-color) !important;
   font-size: 2rem;
 }
 
@@ -43,7 +43,7 @@
   }
 
   .social-container a:hover {
-    color: #e8a981 !important;
+    color: var(--accent-color) !important;
     text-decoration: none;
     transform: translateY(+3px);
   }
@@ -51,8 +51,6 @@
   .social-container a img.orange-malt {
     display: none;
   }
-
-
 
   .social-container a:hover img.green-malt {
     display: none;
