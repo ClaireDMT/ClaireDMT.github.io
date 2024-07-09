@@ -10,13 +10,13 @@ section#contact {
 }
 
 #contact h2 {
-  color: #e8a981;
+  color: var(--accent-color);
   font-size: 32px;
   margin-bottom: 25px;
 }
 
 .white {
-  color: white;
+  color: var(--white);
 }
 
 
@@ -29,9 +29,4 @@ section#contact {
   font-size: 18px;
   max-width: 600px;
   margin-bottom: 10px;
-}
-
-
-.light-green {
-  color: #85a293;
 }
