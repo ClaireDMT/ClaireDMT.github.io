@@ -46,8 +46,8 @@ p {
   height: 100%;
 }
 
-a, a span {
-  color: white !important;
+body a, a span {
+  color: white;
   text-decoration: none;
 }
 
