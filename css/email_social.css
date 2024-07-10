@@ -18,7 +18,7 @@
 }
 
 .social-container a {
-  color: (--text-color) !important;
+  color: var(--text-color);
   font-size: 2rem;
 }
 
