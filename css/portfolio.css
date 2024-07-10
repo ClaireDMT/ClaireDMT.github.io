@@ -33,16 +33,21 @@
 
 .techno-infos {
   position: absolute;
-  bottom: 1rem;
+  top: 0;
+  bottom: 0;
   right: 0;
   left: 0;
   margin: 0;
   padding: 0;
+  background-color: rgba(3, 39, 36, 0.2);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .techno-infos ul {
   padding: 0;
-  margin: 0;
+  margin: 0 0 1rem 0;
   display: flex;
   list-style: none;
   flex-wrap: wrap-reverse;
@@ -183,6 +188,9 @@ h3.visible-mobile {
 .project-links a i {
   color: white;
   transition: all 0.3s;
+}
+
+.project-links .fa-arrow-right {
   transform: rotate(-45deg);
 }
 

@@ -26,6 +26,5 @@ const scrollProjects = () => {
   });
 }
 
-
 export { scrollProjects };
 export { scrollOnNavLinks };

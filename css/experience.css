@@ -34,15 +34,15 @@
 }
 
 .experience-title {
-    cursor: pointer;
-    width: 100%;
-    min-height: 50px;
-    border-left: 2px solid rgba(133, 162, 147, 0.6);
-    padding: 20px;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    background-color: rgba(3, 64, 63, 0.6);
-    align-items: center;
-    justify-content: space-between;
+  cursor: pointer;
+  width: 100%;
+  min-height: 50px;
+  border-left: 2px solid rgba(133, 162, 147, 0.6);
+  padding: 20px;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  background-color: rgba(3, 64, 63, 0.6);
+  align-items: center;
+  justify-content: space-between;
 }
 
 
