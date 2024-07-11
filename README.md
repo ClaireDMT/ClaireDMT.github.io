@@ -11,5 +11,5 @@ So this repository is solely worked on when I travel from 🇩🇪 to 🇫🇷, 
 [ ] cleanup the CSS  
 [ ] add a readings section  
 [ ] add a side projects section  
-[ ] remove the work part (the résumé will do)
+[x] remove the work part (the résumé will do)
 
