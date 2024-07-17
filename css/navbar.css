@@ -17,10 +17,18 @@
 }
 
 #navbarSupportedContent {
-  padding: 10px;
-  padding-bottom: 20px;
+  padding: 16px;
 }
 
+@media (max-width: 992px) {
+  #navbarSupportedContent {
+    background-color: var(--lighter-bg);
+  }
+}
+
+.navbar .navbar-toggler-icon {
+  color: var(--accent-color);
+}
 
 .hidden {
   transform: translateY(-100px);
