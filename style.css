@@ -26,3 +26,9 @@ font-family: 'Nanum Gothic', sans-serif;
   --accent-color: #e8a981;
   --white: #fdf8f5;
 }
+
+
+#main {
+  padding-left: 24px;
+  padding-right: 24px ;
+}
