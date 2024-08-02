@@ -29,13 +29,10 @@
     <title>Claire Demont | Fullstack Web Developer</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Nanum+Gothic|Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   </head>
   <body>
 
@@ -45,31 +42,33 @@
       <!-- NAVBAR -->
       <div class="container-navbar on-top">
         <div class="navbar navbar-expand-sm">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                <i class="fa-solid fa-bars"></i>
+          <div class="container-fluid">
+            <div>Claire</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i>
               </span>
             </button>
 
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" id="about-link" data-aos="fade-down" data-aos-delay="200">About<span class="orange-text">.</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" id="portfolio-link" data-aos="fade-down" data-aos-delay="400">Portfolio<span class="orange-text">.</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="side-projects-link" data-aos="fade-down" data-aos-delay="600">Side Projects<span class="orange-text">.</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" id="contact-link" data-aos="fade-down" data-aos-delay="800">Contact<span class="orange-text">.</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link orange-text" title="teeest" href="/assets/CV_claire_demont.pdf" data-aos="fade-down" data-aos-delay="800" target="_blank">Resume.</a>
-              </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-link active">
+                  <a id="about-link" data-aos="fade-down" data-aos-delay="200">About<span class="orange-text">.</span></a>
+                </li>
+                <li class="nav-link dropdown">
+                  <a id="portfolio-link" data-aos="fade-down" data-aos-delay="400">Portfolio<span class="orange-text">.</span></a>
+                </li>
+                <li class="nav-link">
+                  <a id="other-projects-link" data-aos="fade-down" data-aos-delay="600">Other Projects<span class="orange-text">.</span></a>
+                </li>
+                <li class="nav-link dropdown">
+                  <a id="contact-link" data-aos="fade-down" data-aos-delay="800">Contact<span class="orange-text">.</span></a>
+                </li>
+                <li class="nav-link dropdown">
+                  <a class="orange-text" title="teeest" href="/assets/CV_claire_demont.pdf" data-aos="fade-down" data-aos-delay="800" target="_blank">Resume.</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -124,11 +123,10 @@
           <h3 class="section-title" data-aos="fade"  data-aos-duration="600">About me</h3>
           <div class="about-content" data-aos="fade" data-aos-delay="300">
             <div class="text-about col-12 col-lg-10">
-              <p>After a Master in Management from Neoma Business School, knowing so little about anything, I got foot in the door of IT as a Consultant because it was so unknown that it felt enthralling.</p>
-              <p>I became passionate about SaaS products after a global CRM (Salesforce) deployment program in Health Industry.</p>
-              <p>So I joined MonDocteur.fr, and later Doctolib to work on amazing products helping and empowering people as an Onboarding Manager, Saas Integrator and Trainer.</p>
-              <p>I was closer to products but not [close] enough...so I enrolled for Le Wagon bootcamp to go have a look on the other side of the mirror and never left!</p>
-
+              <p>After completing my Master's in Management, I ventured into the IT world as a Consultant. The unknowns of the field were incredibly exciting.</p>
+              <p>My interest in digital products grew during a global CRM deployment (Salesforce) in the Health Industry.</p>
+              <p>I then joined MonDocteur.fr and later Doctolib, where I worked as an Onboarding Manager, SaaS Integrator, and Trainer, developing products that empower people.</p>
+              <p>Wanting to get closer to product development, I joined Le Wagon bootcamp. This experience sparked my passion for programming, and I've been hooked ever since!</p>
               <p class="skills__intro">Here is what I work/ed with</p>
               <div class="skills">
                 <!-- Front -->
@@ -178,36 +176,6 @@
           </div>
         </section>
         <!-- ABOUT -->
-
-        <!-- EXPERIENCE -->
-        <section id="experience">
-          <h3 class="section-title" data-aos="fade" data-aos-duration="600">Side projects</h3>
-          <div class="experience-content">
-            <ul class="experience-list nav flex-column">
-              <li id=1 class="experience-employer nav-item" data-aos="fade" data-aos-delay="300">
-                <div class="experience-title flex">
-                  <h4>
-                    <span><strong>Teacher&nbsp;</strong></span>
-                    <span a class="employer-name">@</span><span><a class="employer-name" target="_blank" rel="noopener noreferrer" href="https://www.lewagon.com/"><strong>Le Wagon in Paris, Berlin, Milan, Barcelona, Stockholm & Dubaï</strong></a></span>
-                  </h4>
-                  <p class="dropdown-triangle">▵</p>
-                </div>
-                <div class="experience-details">
-                  <p class="experience-date">April 2019 - Present</p>
-                  <p>9-week full-time Ruby On Rails bootcamp to build several web applications and a personal project.</p>
-                  <ul class="list">
-                    <li>Supported students on a series of programming challenges</li>
-                    <li>Held lessons on Ruby, Ruby On Rails, OOP, Databases, Web101, CSS</li>
-                    <li>Animated livecoding sessions</li>
-                    <li>Provided guidelines, advices for application project for design & UX</li>
-                    <li>Held B2B workshops for beginners (SQL, UI/UX)</li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <!-- EXPERIENCE -->
 
         <!-- PORTFOLIO -->
         <section id="portfolio" class="flex">
@@ -427,6 +395,35 @@
         </section>
         <!-- PORTFOLIO -->
 
+        <!-- EXPERIENCE -->
+        <section id="other-projects">
+          <h3 class="section-title" data-aos="fade" data-aos-duration="600">Other projects</h3>
+          <div class="experience-content">
+            <ul class="experience-list flex-column">
+              <li id=1 class="experience-employer " data-aos="fade" data-aos-delay="300">
+                <div class="experience-title flex">
+                  <h4>
+                    <span><strong>Programming Instructor&nbsp;</strong></span>
+                    <p class="experience-date">April 2019 - Present</p>
+                  </h4>
+                </div>
+                <div class="experience-details">
+                  <span a class="employer-name">@</span><span><a class="employer-name" target="_blank" rel="noopener noreferrer" href="https://www.lewagon.com/"><strong>Le Wagon in Paris, Berlin, Milan, Barcelona, Stockholm & Dubaï</strong></a></span>
+                  <ul class="list">
+                    <li>Supported students on a series of programming challenges</li>
+                    <li>Held lessons on Ruby, Ruby On Rails, OOP, Databases, Web101, CSS</li>
+                    <li>Animated livecoding sessions</li>
+                    <li>Provided guidelines, advices for application project for design & UX</li>
+                    <li>Held B2B workshops for beginners (SQL, UI/UX)</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- EXPERIENCE -->
+
+
         <!-- CONTACT -->
         <section id="contact">
           <h3 class="section-title" data-aos="fade" data-aos-duration="600">What we can do</h3>
@@ -463,8 +460,7 @@
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://kit.fontawesome.com/9688b3dc14.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script type="module" src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
