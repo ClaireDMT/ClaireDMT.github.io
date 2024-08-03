@@ -29,13 +29,10 @@
     <title>Claire Demont | Fullstack Web Developer</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Nanum+Gothic|Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   </head>
   <body>
 
@@ -45,31 +42,33 @@
       <!-- NAVBAR -->
       <div class="container-navbar on-top">
         <div class="navbar navbar-expand-sm">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                <i class="fa-solid fa-bars"></i>
+          <div class="container-fluid">
+            <div>Claire</div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i>
               </span>
             </button>
 
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" id="about-link" data-aos="fade-down" data-aos-delay="200">About<span class="orange-text">.</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" id="portfolio-link" data-aos="fade-down" data-aos-delay="400">Portfolio<span class="orange-text">.</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="side-projects-link" data-aos="fade-down" data-aos-delay="600">Side Projects<span class="orange-text">.</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" id="contact-link" data-aos="fade-down" data-aos-delay="800">Contact<span class="orange-text">.</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link orange-text" title="teeest" href="/assets/CV_claire_demont.pdf" data-aos="fade-down" data-aos-delay="800" target="_blank">Resume.</a>
-              </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-link active">
+                  <a id="about-link" data-aos="fade-down" data-aos-delay="200">About<span class="orange-text">.</span></a>
+                </li>
+                <li class="nav-link dropdown">
+                  <a id="portfolio-link" data-aos="fade-down" data-aos-delay="400">Portfolio<span class="orange-text">.</span></a>
+                </li>
+                <li class="nav-link">
+                  <a id="other-projects-link" data-aos="fade-down" data-aos-delay="600">Other Projects<span class="orange-text">.</span></a>
+                </li>
+                <li class="nav-link dropdown">
+                  <a id="contact-link" data-aos="fade-down" data-aos-delay="800">Contact<span class="orange-text">.</span></a>
+                </li>
+                <li class="nav-link dropdown">
+                  <a class="orange-text" title="teeest" href="/assets/CV_claire_demont.pdf" data-aos="fade-down" data-aos-delay="800" target="_blank">Resume.</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -124,11 +123,10 @@
           <h3 class="section-title" data-aos="fade"  data-aos-duration="600">About me</h3>
           <div class="about-content" data-aos="fade" data-aos-delay="300">
             <div class="text-about col-12 col-lg-10">
-              <p>After a Master in Management from Neoma Business School, knowing so little about anything, I got foot in the door of IT as a Consultant because it was so unknown that it felt enthralling.</p>
-              <p>I became passionate about SaaS products after a global CRM (Salesforce) deployment program in Health Industry.</p>
-              <p>So I joined MonDocteur.fr, and later Doctolib to work on amazing products helping and empowering people as an Onboarding Manager, Saas Integrator and Trainer.</p>
-              <p>I was closer to products but not [close] enough...so I enrolled for Le Wagon bootcamp to go have a look on the other side of the mirror and never left!</p>
-
+              <p>After completing my Master's in Management, I ventured into the IT world as a Consultant. The unknowns of the field were incredibly exciting.</p>
+              <p>My interest in digital products grew during a global CRM deployment (Salesforce) in the Health Industry.</p>
+              <p>I then joined MonDocteur.fr and later Doctolib, where I worked as an Onboarding Manager, SaaS Integrator, and Trainer, developing products that empower people.</p>
+              <p>Wanting to get closer to product development, I joined Le Wagon bootcamp. This experience sparked my passion for programming, and I've been hooked ever since!</p>
               <p class="skills__intro">Here is what I work/ed with</p>
               <div class="skills">
                 <!-- Front -->
@@ -179,43 +177,13 @@
         </section>
         <!-- ABOUT -->
 
-        <!-- EXPERIENCE -->
-        <section id="experience">
-          <h3 class="section-title" data-aos="fade" data-aos-duration="600">Side projects</h3>
-          <div class="experience-content">
-            <ul class="experience-list nav flex-column">
-              <li id=1 class="experience-employer nav-item" data-aos="fade" data-aos-delay="300">
-                <div class="experience-title flex">
-                  <h4>
-                    <span><strong>Teacher&nbsp;</strong></span>
-                    <span a class="employer-name">@</span><span><a class="employer-name" target="_blank" rel="noopener noreferrer" href="https://www.lewagon.com/"><strong>Le Wagon in Paris, Berlin, Milan, Barcelona, Stockholm & Dubaï</strong></a></span>
-                  </h4>
-                  <p class="dropdown-triangle">▵</p>
-                </div>
-                <div class="experience-details">
-                  <p class="experience-date">April 2019 - Present</p>
-                  <p>9-week full-time Ruby On Rails bootcamp to build several web applications and a personal project.</p>
-                  <ul class="list">
-                    <li>Supported students on a series of programming challenges</li>
-                    <li>Held lessons on Ruby, Ruby On Rails, OOP, Databases, Web101, CSS</li>
-                    <li>Animated livecoding sessions</li>
-                    <li>Provided guidelines, advices for application project for design & UX</li>
-                    <li>Held B2B workshops for beginners (SQL, UI/UX)</li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <!-- EXPERIENCE -->
-
         <!-- PORTFOLIO -->
         <section id="portfolio" class="flex">
           <h3 class="section-title" data-aos="fade" data-aos-duration="600">Portfolio</h3>
           <div class="portfolio__grid">
 
             <!-- Priicer -->
-            <div id="priicer" class="project">
+            <div id="priicer" class="portfolio__project">
               <img src="assets/portfolio/priicer.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -228,18 +196,18 @@
                 </ul>
               </div>
               <div class="infos-project">
-                <div class="project-links">
+                <div class="portfolio__project__links">
                   <a href="https://priicer.com" title="https://priicer.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <h3 class="visible-desktop">Priicer</h3>
-                <p class="project-job">Software Engineering</p>
-                <p class="project-description">Priicer is an easy to use tool that lets you choose how much you are willing to pay for electricity for each device in your home or business.</p>
+                <p class="portfolio__project__job">Software Engineering</p>
+                <p class="portfolio__project__description">Priicer is an easy to use tool that lets you choose how much you are willing to pay for electricity for each device in your home or business.</p>
               </div>
               <h3 class="visible-mobile">Priicer</h3>
             </div>
 
             <!-- Impact Stories -->
-            <div id="impact-stories" class="project">
+            <div id="impact-stories" class="portfolio__project">
               <img src="assets/portfolio/climate_vulnerability_monitor.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -250,18 +218,18 @@
                 </ul>
               </div>
               <div class="infos-project">
-                <div class="project-links">
+                <div class="portfolio__project__links">
                   <a href="https://climatevulnerabilitymonitor.org/stories/" title="https://climatevulnerabilitymonitor.org/stories/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <h3 class="visible-desktop">Impact Stories</h3>
-                <p class="project-job">Design & Development</p>
-                <p class="project-description">Bangladesh, Ghana, Kenya, Philippines and Saint Lucia are some of the countries most vulnerable to climate change. Learn more about the impacts these countries are facing.</p>
+                <p class="portfolio__project__job">Design & Development</p>
+                <p class="portfolio__project__description">Bangladesh, Ghana, Kenya, Philippines and Saint Lucia are some of the countries most vulnerable to climate change. Learn more about the impacts these countries are facing.</p>
               </div>
               <h3 class="visible-mobile">Impact Stories</h3>
             </div>
 
             <!-- Rethink Action -->
-            <div id="rethink-actions" class="project">
+            <div id="rethink-actions" class="portfolio__project">
               <img src="assets/portfolio/rethink.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -272,18 +240,18 @@
                 </ul>
               </div>
               <div class="infos-project">
-                <div class="project-links">
+                <div class="portfolio__project__links">
                   <a href="https://climatevulnerabilitymonitor.org/stories/" title="https://climatevulnerabilitymonitor.org/stories/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <h3 class="visible-desktop">Rethink Action</h3>
-                <p class="project-job">Development & CMS integration</p>
-                <p class="project-description">The RethinkAction project puts citizens and decision-makers at the heart of climate action by developing a cross-sectoral planning decision-making platform to foster climate action across Europe.</p>
+                <p class="portfolio__project__job">Development & CMS integration</p>
+                <p class="portfolio__project__description">The RethinkAction project puts citizens and decision-makers at the heart of climate action by developing a cross-sectoral planning decision-making platform to foster climate action across Europe.</p>
               </div>
               <h3 class="visible-mobile">Rethink Action</h3>
             </div>
 
             <!-- Quouch -->
-            <div id="quouch" class="project">
+            <div id="quouch" class="portfolio__project">
               <img src="assets/portfolio/quouch.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -293,18 +261,18 @@
                 </ul>
               </div>
               <div class="infos-project">
-                <div class="project-links">
+                <div class="portfolio__project__links">
                   <a href="https://quouch-app.com" title="https://quouch-app.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <h3 class="visible-desktop">Quouch</h3>
-                <p class="project-job">Consultancy, debugging and features enhancement</p>
-                <p class="project-description">Quouch is the newest couch-surfing platform for queer people and women to explore the world more safely while finding community.</p>
+                <p class="portfolio__project__job">Consultancy, debugging and features enhancement</p>
+                <p class="portfolio__project__description">Quouch is the newest couch-surfing platform for queer people and women to explore the world more safely while finding community.</p>
               </div>
-              <h3 class="visible-mobile">Bauer Direkt</h3>
+              <h3 class="visible-mobile">Quouch</h3>
             </div>
 
             <!-- BauerDirekt -->
-              <div id="bauerdirekt" class="project">
+              <div id="bauerdirekt" class="portfolio__project">
                 <img src="assets/portfolio/bauerdirekt.png" alt="">
                 <div class="techno-infos">
                   <ul>
@@ -313,18 +281,18 @@
                   </ul>
                 </div>
                 <div class="infos-project">
-                  <div class="project-links">
+                  <div class="portfolio__project__links">
                     <a href="https://bauer-direkt.de" title="https://bauer-direkt.de" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                   <h3 class="visible-desktop">Bauer Direkt</h3>
-                  <p class="project-job">Design (adaptation of existing theme) and development of the website</p>
-                  <p class="project-description">Platform to connect restaurant owners and farmers to support local production and enabling fair price and good products to city establishments</p>
+                  <p class="portfolio__project__job">Design (adaptation of existing theme) and development of the website</p>
+                  <p class="portfolio__project__description">Platform to connect restaurant owners and farmers to support local production and enabling fair price and good products to city establishments</p>
                 </div>
                 <h3 class="visible-mobile">Bauer Direkt</h3>
               </div>
 
             <!-- GPG Granit -->
-            <div id="gpg-granit" class="project">
+            <div id="gpg-granit" class="portfolio__project">
               <img src="assets/portfolio/gpg-granit.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -333,18 +301,18 @@
                 </ul>
               </div>
               <div class="infos-project">
-                <div class="project-links">
+                <div class="portfolio__project__links">
                   <a href="https://www.gpggranit.com" title="https://www.gpggranit.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 <h3 class="visible-desktop">GPG Granit</h3>
-                <p class="project-job">Design and Front-end development</p>
-                <p class="project-description">Designing and manufacturing custom-made tombstones through a design office and 3D illustrators.</p>
+                <p class="portfolio__project__job">Design and Front-end development</p>
+                <p class="portfolio__project__description">Designing and manufacturing custom-made tombstones through a design office and 3D illustrators.</p>
               </div>
               <h3 class="visible-mobile">GPG Granit</h3>
             </div>
 
             <!-- Livesson -->
-            <div id="livesson" class="project">
+            <div id="livesson" class="portfolio__project">
               <img src="assets/portfolio/livesson.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -355,14 +323,14 @@
               </div>
               <div class="infos-project">
                 <h3 class="visible-desktop">Livesson</h3>
-                <p class="project-job">Front-End and Back-End, Javascript plugins integration</p>
-                <p class="project-description">Platform for teachers and sport addicts to organise remote lessons (yoga, pilates, gym etc.)</p>
+                <p class="portfolio__project__job">Front-End and Back-End, Javascript plugins integration</p>
+                <p class="portfolio__project__description">Platform for teachers and sport addicts to organise remote lessons (yoga, pilates, gym etc.)</p>
               </div>
               <h3 class="visible-mobile">Livesson</h3>
             </div>
 
             <!-- PLEMO -->
-            <div id="plemo3D" class="project">
+            <div id="plemo3D" class="portfolio__project">
               <img src="assets/portfolio/plemo3D_5.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -373,17 +341,17 @@
               </div>
               <div class="infos-project">
                 <h3 class="visible-desktop">PLEMO 3D</h3>
-                <div class="project-links">
+                <div class="portfolio__project__links">
                   <a href="https://plemo3d.sorbonne-universite.fr" title="https://plemo3d.sorbonne-universite.fr" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <p class="project-job">Architecture, design (new WP theme created) and development of the website</p>
-                <p class="project-description">Official website for Plemo 3D, a French institute digitizing works and objects of our world heritage </p>
+                <p class="portfolio__project__job">Architecture, design (new WP theme created) and development of the website</p>
+                <p class="portfolio__project__description">Official website for Plemo 3D, a French institute digitizing works and objects of our world heritage </p>
               </div>
               <h3 class="visible-mobile">PLEMO 3D</h3>
             </div>
 
             <!-- LUMA -->
-            <div id="luma" class="project">
+            <div id="luma" class="portfolio__project">
               <img src="assets/portfolio/luma_2.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -394,19 +362,19 @@
               </div>
               <div class="infos-project">
                 <h3 class="visible-desktop">Luma</h3>
-                <div class="flex project-links">
+                <div class="flex portfolio__project__links">
                   <a href="https://luma.herokuapp.com" title="see the app" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-right"></i></a>
                   <a href="https://www.youtube.com/watch?v=HZ87deV1-pY#t=6m13s" title="watch the demo"target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
                 </div>
-                <p class="project-job">Front-end & back-end development with 3 other students</p>
-                <p class="project-description">The startup benefits application with personalised perks for employees and dashboards for onboarding managers.</p>
-                <p class="project-context">Final project as student at Le Wagon.</p>
+                <p class="portfolio__project__job">Front-end & back-end development with 3 other students</p>
+                <p class="portfolio__project__description">The startup benefits application with personalised perks for employees and dashboards for onboarding managers.</p>
+                <p class="portfolio__project__context">Final project as student at Le Wagon.</p>
               </div>
               <h3 class="visible-mobile">Luma</h3>
             </div>
 
             <!-- Second Peau -->
-            <div id="spp" class="project">
+            <div id="spp" class="portfolio__project">
               <img src="assets/portfolio/seconde_peau.png" alt="">
               <div class="techno-infos">
                 <ul>
@@ -417,15 +385,65 @@
               </div>
               <div class="infos-project">
                 <h3 class="visible-desktop">Seconde Peau Paris</h3>
-                <p class="project-job">Updated the graphic charter, designed new features (quick purchase), UX improvements</p>
-                <p class="project-description">Market Place for French refined designed lingerie</p>
-                <p class="project-context">Front-end mission in collaboration wiht a senior back-end developper</p>
+                <p class="portfolio__project__job">Updated the graphic charter, designed new features (quick purchase), UX improvements</p>
+                <p class="portfolio__project__description">Market Place for French refined designed lingerie</p>
+                <p class="portfolio__project__context">Front-end mission in collaboration wiht a senior back-end developper</p>
               </div>
               <h3 class="visible-mobile">Seconde Peau Paris</h3>
             </div>
           </div>
         </section>
         <!-- PORTFOLIO -->
+
+        <!-- OTHER PROJECTS -->
+        <section id="other-projects">
+          <h3 class="section-title" data-aos="fade" data-aos-duration="600">Other projects</h3>
+          <ul class="projects">
+            <li class="project mb-5" data-aos="fade" data-aos-delay="300">
+              <div class="project__title">
+                <h4 class="orange-text">Programming Instructor & Pegagogical Content Editor&nbsp;</h4>
+                <p class="ml-4">April 2019 - Present</p>
+              </div>
+              <div class="project__details">
+                <div class="mb-5">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.lewagon.com/">Le Wagon Paris, Munich, Berlin, Milan, Barcelona, Stockholm & Dubaï</a>
+                  <p>Supported students with programming challenges and lessons on Ruby, Ruby on Rails, OOP, Databases, Web101, and CSS. Conducted live coding sessions and mentored final projects.</p>
+                </div>
+                <div>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.lewagon.com/">Weißensee Academy of Art Berlin | 2021</a>
+                  <p>Developed and taught a comprehensive curriculum: "Introductory to web design and programming".</p>
+                </div>
+              </div>
+            </li>
+            <li class="project mb-5" data-aos="fade" data-aos-delay="300">
+              <div class="project__title">
+                <h4 class="orange-text">Open Source Project&nbsp;</h4>
+                <p class="ml-4">Oct 2023 - Present</p>
+              </div>
+              <div class="project__details">
+                <div class="">
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Contributees/First-Ruby-Quest">First-Contributions</a>
+                  <p>Web app referencing ruby related open source issues suitable for a first contribution and/or junior developers (or any developpers!).</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="project" data-aos="fade" data-aos-delay="300">
+              <div class="project__title">
+                <h4 class="orange-text">Linux Certification</h4>
+                <p class="ml-4">Ongoing</p>
+              </div>
+              <div class="project__details">
+                <div>
+                  <a target="_blank" rel="noopener noreferrer" href="https://training.linuxfoundation.org/training/introduction-to-open-source-development-git-and-linux/">Introduction to Open Source Development, Git and Linux (LFD201)
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <!-- OTHER PROJECTS -->
+
 
         <!-- CONTACT -->
         <section id="contact">
@@ -463,8 +481,7 @@
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://kit.fontawesome.com/9688b3dc14.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script type="module" src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 0px;
-  grid-row-gap: 16px;
+  grid-row-gap: 4rem;
 }
 
 @media (min-width: 1400px) {
@@ -21,12 +21,12 @@
   }
 }
 
-.project {
+.portfolio__project {
   position: relative;
   height: 35vh;
 }
 
-.project h3 {
+.portfolio__project h3 {
   color: white;
   text-align: center;
 }
@@ -81,7 +81,7 @@
   padding: 0.5rem 1rem;
 }
 
-.project img {
+.portfolio__project img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -110,7 +110,7 @@
   transition: opacity 0.8s ease;
 }
 
-.project-description {
+.portfolio__project__description {
   font-size: 0.85rem;
   line-height: 1.1;
   color: white;
@@ -128,7 +128,7 @@
     font-size: 30px;
   }
 
-  .project-description {
+  .portfolio__project__description {
     font-size: 0.85rem;
     margin-top: 30px !important;
     margin-bottom: 30px !important;
@@ -136,15 +136,15 @@
     text-align: center;
   }
 
-  .project-context {
+  .portfolio__project__context {
     margin-bottom: 10px;
   }
 
-  .project-job {
+  .portfolio__project__job {
     margin-bottom: 10px;
   }
 
-  .project-links a {
+  .portfolio__project__links a {
     font-size: 1.25rem;
     transition: all 0.3s;
   }
@@ -165,7 +165,7 @@ h3.visible-mobile {
 }
 
 
-.project-context {
+.portfolio__project__context {
   color: black;
   font-size: 12px;
   margin-top: 5px;
@@ -173,29 +173,29 @@ h3.visible-mobile {
   line-height: 1px;
 }
 
-.project-job {
+.portfolio__project__job {
   margin-top: 3rem;
   font-size: 1.25rem;
   color: var(--accent-color);
 }
 
-.project-links {
+.portfolio__project__links {
   position: absolute;
   top: 2rem;
   right: 2rem;
 }
 
-.project-links a i {
+.portfolio__project__links a i {
   color: white;
   transition: all 0.3s;
 }
 
-.project-links .fa-arrow-right {
+.portfolio__project__links .fa-arrow-right {
   transform: rotate(-45deg);
 }
 
 
-.project-links a:hover i {
+.portfolio__project__links a:hover i {
   color: var(--accent-color);
   transition: all 0.3s;
 }

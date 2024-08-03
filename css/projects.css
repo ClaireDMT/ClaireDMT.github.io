@@ -1,0 +1,34 @@
+.projects .project__details {
+  background-color: #1635338c;
+  padding: 1.5rem;
+  border-radius: 6px;
+}
+
+.projects .project__details p {
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+  .projects .project {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .projects .project__title {
+    grid-area: 1 / 1 / 4 / 3;
+  }
+
+  .projects .project__details {
+    grid-area: 1 / 3 / 2 / 6;
+  }
+}
+
+@media (max-width: 992px) {
+  ul.projects {
+    padding-left:  0;
+  }
+}

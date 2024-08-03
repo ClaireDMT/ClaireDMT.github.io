@@ -1,12 +1,11 @@
 .container-navbar {
-  padding: 0 10px !important;
+  padding: 10px 10px !important;
   width: 100%;
   box-shadow: rgba(0, 33, 32, 0.7) 0px 10px 30px -10px;
   position: fixed;
   top: 0px;
   z-index: 10;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-  height: 100px !important;
   transform: translateY(0px);
 }
 
@@ -28,6 +27,7 @@
 
 .navbar .navbar-toggler-icon {
   color: var(--accent-color);
+  font-size: 1.5rem;
 }
 
 .hidden {
@@ -48,17 +48,25 @@
   height: 100%;
 }
 
+button.navbar-toggler:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
 .navbar .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar .nav-item {
+.navbar .nav-link {
   margin: 0 10px;
   font-family: 'Maven Pro', sans-serif;
   letter-spacing: 2px;
   cursor: pointer;
 }
 
+.navbar .nav-item a {
+  color: var(--white);
+}
 .navbar-icon {
   height: 80%;
 }
